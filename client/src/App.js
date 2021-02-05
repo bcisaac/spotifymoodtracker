@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './App.css';
 import Spotify from 'spotify-web-api-js';
 
-
 const spotifyWebApi = new Spotify()
 
 class App extends Component {
@@ -46,7 +45,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <a href='http://localhost:3001'>
+      <a href= 'http://localhost:3001'>
         <button>Login with Spotify</button>
       </a>
       <div> Now Playing: { this.state.nowPlaying.name }</div>
